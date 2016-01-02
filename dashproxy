@@ -1,0 +1,14 @@
+# This is the xinetd configuration file for the dashproxy file
+service dashproxy
+{
+     type                = UNLISTED
+     socket_type         = stream
+     protocol            = tcp
+     wait                = no
+     port                = 9999
+     user                = nobody
+     server              = /usr/local/bin/dashproxy1.py
+     per_source          = 1 # Very important! This is what combines with the sleep in the python script to avoid duplicate events
+     disabled            = no
+}
+~                       
