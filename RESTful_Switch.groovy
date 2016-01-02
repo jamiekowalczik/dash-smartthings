@@ -12,9 +12,11 @@
  *  on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License
  *  for the specific language governing permissions and limitations under the License.
  *
+ *  This instance is for my bar light
+ *
  */
 definition(
-    name: "Control a Switch with an API call",
+    name: "Control a Switch with an API call - bar light",
     namespace: "smartthings",
     author: "SmartThings",
     description: "V2 of 'RESTful Switch' example. Trying to make OAuth work properly.",
