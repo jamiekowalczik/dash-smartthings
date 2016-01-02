@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 ## DD-WRT IPTABLES COMMAND (assumptions: dash button's ip is 192.168.2.137 and the server running the
-## xinetd service has an ip of 192.168.2.100
+## xinetd service has an ip of 192.168.2.100)
 ## /usr/sbin/iptables -t nat -A PREROUTING -s 192.168.2.137 -p tcp -j DNAT --to 192.168.2.100:9999
 
 import requests
